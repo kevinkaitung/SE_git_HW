@@ -5,12 +5,12 @@ using namespace std;
 
 int main()
 {
-    int total = 0;
+    int masterTotal = 0;
     int i;
     for (i = 1; i <= 10; i++)
     {
-        total += i;
+        masterTotal += i;
     }
-    cout << "Ans: " << total << endl;
+    cout << "Ans: " << masterTotal << endl;
     return 0;
 }
