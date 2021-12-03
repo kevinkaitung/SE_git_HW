@@ -11,5 +11,6 @@ int main()
     {
         total += i;
     }
+    cout << "Ans: " << total << endl;
     return 0;
 }
